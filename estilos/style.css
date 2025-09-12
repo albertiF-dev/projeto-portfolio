@@ -99,12 +99,12 @@ div#social {
   font-size: 1.4em;
   gap: 15px;
   margin: 15px 0px;
-
 }
 
 div#social a {
   color: var(--destaque);
-  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1), transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: color 0.4s cubic-bezier(0.4, 0, 0.2, 1),
+    transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 div#social a:hover {
